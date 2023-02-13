@@ -1,1 +1,15 @@
-{}
+{
+    "LoginFlow": {
+        "gh_author": "Gasmyr",
+        "gh_repo_path": "auth-ads-repo",
+        "project_name": "LoginFlow",
+        "version": "0.0.1",
+        "author": "Gasmyr",
+        "author_website": "https://github.com/Gasmyr/auth-ads-repo",
+        "github_uri": "https://github.com/Gasmyr/auth-ads-repo",
+        "project_description": "Login flow",
+        "license": "MIT",
+        "last_updated": "1676297267871",
+        "project_type": "community"
+    }
+}
