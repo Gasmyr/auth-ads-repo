@@ -1,5 +1,0 @@
-Flow co.gluu.resetpwd
-     Basepath "gluu/pwdreset"
-Log "@info " done
-obj = RRF "pwd.ftlh" code
-Finish true
