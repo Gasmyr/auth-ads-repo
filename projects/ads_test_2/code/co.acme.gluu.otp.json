@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Agama-start-Flow-2517c28c-ba6e-4cdd-ba86-f16884e145c0",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-2517c28c-ba6e-4cdd-ba86-f16884e145c0",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "handles": [],
+      "agamaData": {
+        "id": "Agama-start-Flow-2517c28c-ba6e-4cdd-ba86-f16884e145c0",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasNoRepeat": false,
+        "name": "",
+        "basepath": "gluu/otp",
+        "comment": "",
+        "flowfilename": "",
+        "assignedvariableName": "",
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "variableType": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "whenVariable": "",
+        "whenConditionInputField": "",
+        "whenValue": "",
+        "returnVariable": "",
+        "asssignmentExpression": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "OTP_Flow",
+        "nodeColor": "",
+        "flowname": "co.acme.gluu.otp"
+      },
+      "inRepeatBlock": false,
+      "whenCondition": "",
+      "nextNodeType": "Agama-rrf-Node"
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
