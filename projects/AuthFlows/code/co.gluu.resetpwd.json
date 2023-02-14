@@ -1,56 +1,252 @@
-[
-  {
-    "id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "handles": [],
-      "agamaData": {
-        "id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasNoRepeat": false,
-        "name": "",
-        "basepath": "gluu/pwdreset",
-        "comment": "",
-        "flowfilename": "",
-        "assignedvariableName": "",
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "variableType": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "whenVariable": "",
-        "whenConditionInputField": "",
-        "whenValue": "",
-        "returnVariable": "",
-        "asssignmentExpression": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "Reset Pwd",
-        "nodeColor": "",
-        "flowname": "co.gluu.resetpwd"
-      },
-      "inRepeatBlock": false,
-      "whenCondition": ""
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 140,
+			"height": 85,
+			"id": "finish-b7b3fe9f-2ab8-42ea-a7d0-99dd04b5e556",
+			"position": {
+				"x": 540,
+				"y": 30
+			},
+			"type": "finish",
+			"data": {
+				"id": "finish-b7b3fe9f-2ab8-42ea-a7d0-99dd04b5e556",
+				"type": "Agama-finish-Flow",
+				"parentId": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 540,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "finish-b7b3fe9f-2ab8-42ea-a7d0-99dd04b5e556",
+					"type": "Agama-finish-Flow",
+					"parentId": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"returnVariable": "true",
+					"displayName": "finish"
+				}
+			},
+			"positionAbsolute": {
+				"x": 540,
+				"y": 30
+			},
+			"selected": true,
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+			"position": {
+				"x": 370,
+				"y": 30
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 370,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "obj",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "code",
+					"templatePath": "pwd.ftlh",
+					"displayName": "reset pwd"
+				},
+				"nextNodeType": "Agama-finish-Flow"
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 370,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+			"position": {
+				"x": 200,
+				"y": 30
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 200,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+					"type": "Agama-log-Node",
+					"parentId": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"logMessage": "done",
+					"displayName": "logs"
+				},
+				"nextNodeType": "Agama-rrf-Node"
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 200,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"handles": [],
+				"agamaData": {
+					"id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+					"type": "Agama-start-Flow",
+					"hasSuccess": "",
+					"hasFailure": "",
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"name": "",
+					"basepath": "gluu/pwdreset",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Reset Pwd",
+					"nodeColor": "",
+					"flowname": "co.gluu.resetpwd"
+				},
+				"inRepeatBlock": false,
+				"whenCondition": "",
+				"nextNodeType": "Agama-log-Node"
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1-Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4-b2aa1fa9-699b-4041-98eb-12d46d706992",
+			"type": "straight",
+			"source": "Agama-start-Flow-fb831aa8-3dad-4974-a077-76272938f4b1",
+			"target": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4-Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547-4aa94337-6feb-45f7-8572-333d4cfd0684",
+			"type": "straight",
+			"source": "Agama-log-Node-ecf0c232-527a-4cdc-b22a-adf2ef3721b4",
+			"target": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547-finish-b7b3fe9f-2ab8-42ea-a7d0-99dd04b5e556-ddeab10a-582b-47c9-a4e8-42551bc210f4",
+			"type": "straight",
+			"source": "Agama-rrf-Node-bbb3e122-d41d-4a70-8a77-e323292f7547",
+			"target": "finish-b7b3fe9f-2ab8-42ea-a7d0-99dd04b5e556",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 15,
+		"zoom": 1
+	}
+}
