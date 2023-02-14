@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {
+      "id": "Agama-start-Flow-848ce98b-dceb-493e-a09e-84f60b57d6d0",
+      "type": "start",
+      "sourcePosition": "right",
+      "data": {
+        "id": "Agama-start-Flow-848ce98b-dceb-493e-a09e-84f60b57d6d0",
+        "type": "Agama-start-Flow",
+        "position": {
+          "x": 30,
+          "y": 30
+        },
+        "handles": [],
+        "agamaData": {}
+      }
+    }
+  ],
+  "edges": [],
+  "viewport": {
+    "x": 10,
+    "y": 15,
+    "zoom": 1
+  }
+}
