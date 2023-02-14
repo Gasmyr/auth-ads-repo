@@ -1,57 +1,191 @@
-[
-  {
-    "id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "handles": [],
-      "agamaData": {
-        "id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasNoRepeat": false,
-        "name": "",
-        "basepath": "gluu/sms",
-        "comment": "",
-        "flowfilename": "",
-        "assignedvariableName": "",
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "variableType": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "whenVariable": "",
-        "whenConditionInputField": "",
-        "whenValue": "",
-        "returnVariable": "",
-        "asssignmentExpression": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "SMS Flow",
-        "nodeColor": "",
-        "flowname": "co.gluu.sms"
-      },
-      "inRepeatBlock": false,
-      "whenCondition": "",
-      "nextNodeType": "Agama-when-Node"
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 140,
+			"height": 85,
+			"id": "finish-7ea233e5-ae2c-438d-9180-3679b058e947",
+			"position": {
+				"x": 370,
+				"y": 30
+			},
+			"type": "finish",
+			"data": {
+				"id": "finish-7ea233e5-ae2c-438d-9180-3679b058e947",
+				"type": "Agama-finish-Flow",
+				"parentId": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 370,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "finish-7ea233e5-ae2c-438d-9180-3679b058e947",
+					"type": "Agama-finish-Flow",
+					"parentId": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"returnVariable": "false",
+					"displayName": "end"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 370,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+			"position": {
+				"x": 200,
+				"y": 30
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 200,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+					"type": "Agama-log-Node",
+					"parentId": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"logMessage": "Done!",
+					"displayName": "logging..."
+				},
+				"nextNodeType": "Agama-finish-Flow"
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 200,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"handles": [],
+				"agamaData": {
+					"id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"name": "",
+					"basepath": "gluu/sms",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "SMS Flow",
+					"nodeColor": "",
+					"flowname": "co.gluu.sms"
+				},
+				"inRepeatBlock": false,
+				"whenCondition": "",
+				"nextNodeType": "Agama-log-Node"
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739-Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37-28664fd0-214b-4fcb-a017-07a2c892eae3",
+			"type": "straight",
+			"source": "Agama-start-Flow-3362574f-70bd-4d2f-83df-abe5fbab7739",
+			"target": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37-finish-7ea233e5-ae2c-438d-9180-3679b058e947-2d059462-5229-4399-af41-2ca4ecced9d4",
+			"type": "straight",
+			"source": "Agama-log-Node-70ef22bc-b856-4ad3-9a4b-ba289871ff37",
+			"target": "finish-7ea233e5-ae2c-438d-9180-3679b058e947",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 15,
+		"zoom": 1
+	}
+}
