@@ -11,5 +11,18 @@
         "license": "MIT",
         "last_updated": "1676297267871",
         "project_type": "community"
+    },
+    "ads_test_2": {
+        "gh_author": "Gasmyr",
+        "gh_repo_path": "auth-ads-repo",
+        "project_name": "ads_test_2",
+        "version": "0.0.1",
+        "author": "Gasmyr",
+        "author_website": "https://github.com/Gasmyr/auth-ads-repo",
+        "github_uri": "https://github.com/Gasmyr/auth-ads-repo",
+        "project_description": "Testing...",
+        "license": "MIT",
+        "last_updated": "1676367925845",
+        "project_type": "community"
     }
 }
