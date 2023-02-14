@@ -1,5 +1,0 @@
-Flow login
-     Basepath "sample/login"
-Log "@info " logging in...
-obj = RRF "login.ftlh" username password
-Finish done !
