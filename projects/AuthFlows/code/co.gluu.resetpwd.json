@@ -31,7 +31,7 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"returnVariable": "true",
-					"displayName": "finish"
+					"displayName": "shutting..."
 				}
 			},
 			"positionAbsolute": {
