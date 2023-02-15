@@ -1,5 +1,0 @@
-Flow de.gluu.mfa
-     Basepath "gluu/mfa"
-Log "@info " done!
-o = Call tre#mfa dg
-Finish true
