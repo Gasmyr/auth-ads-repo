@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Agama-start-Flow-e9e4624a-9bdc-475d-935b-36ce7aaa8a5e",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-e9e4624a-9bdc-475d-935b-36ce7aaa8a5e",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "handles": [],
+      "agamaData": {
+        "id": "Agama-start-Flow-e9e4624a-9bdc-475d-935b-36ce7aaa8a5e",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasNoRepeat": false,
+        "name": "",
+        "basepath": "test",
+        "comment": "",
+        "flowfilename": "",
+        "assignedvariableName": "",
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "variableType": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "whenVariable": "",
+        "whenConditionInputField": "",
+        "whenValue": "",
+        "returnVariable": "",
+        "asssignmentExpression": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "fgh",
+        "nodeColor": "",
+        "flowname": "gdhh"
+      },
+      "inRepeatBlock": false,
+      "whenCondition": ""
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
