@@ -1,5 +1,0 @@
-Flow co.gluu.2fa
-     Basepath "sample/2fa"
-When obj.success is true
-     obj = RRF "2fa.ftlh" code
-Finish false
