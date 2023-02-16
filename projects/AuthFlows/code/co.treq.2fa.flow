@@ -1,2 +1,4 @@
 Flow co.treq.2fa
      Basepath "treq"
+Log "@info " done !
+Finish true
