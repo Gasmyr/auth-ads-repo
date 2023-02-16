@@ -1,4 +1,0 @@
-Flow co.gluu.sms
-     Basepath "gluu/sms"
-Log "@info " Done!
-Finish false
