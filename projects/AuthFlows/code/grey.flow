@@ -1,2 +1,6 @@
 Flow grey
      Basepath "grey"
+o = 2
+Repeat 3 times max
+     o = RRF "otp.ftlh" uname
+Log "@info " done
