@@ -1,5 +1,0 @@
-Flow com.web.otp
-     Basepath "web/otp"
-Log "@info " completed !
-obj = "user"
-Finish true
