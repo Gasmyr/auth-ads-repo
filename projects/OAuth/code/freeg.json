@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Agama-start-Flow-f6c37bdd-2cbd-437c-8846-e77ec078af01",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-f6c37bdd-2cbd-437c-8846-e77ec078af01",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "handles": [],
+      "agamaData": {
+        "id": "Agama-start-Flow-f6c37bdd-2cbd-437c-8846-e77ec078af01",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasNoRepeat": false,
+        "name": "",
+        "basepath": "fregg",
+        "comment": "",
+        "flowfilename": "",
+        "assignedvariableName": "",
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "variableType": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "whenVariable": "",
+        "whenConditionInputField": "",
+        "whenValue": "",
+        "returnVariable": "",
+        "asssignmentExpression": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "freeg",
+        "nodeColor": "",
+        "flowname": "freeg"
+      },
+      "inRepeatBlock": false,
+      "whenCondition": ""
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
