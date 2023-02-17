@@ -37,5 +37,18 @@
         "license": "MIT",
         "last_updated": "1676387023905",
         "project_type": "community"
+    },
+    "OAuth": {
+        "gh_author": "Gasmyr",
+        "gh_repo_path": "auth-ads-repo",
+        "project_name": "OAuth",
+        "version": "0.0.1",
+        "author": "Gasmyr",
+        "author_website": "https://github.com/Gasmyr/auth-ads-repo",
+        "github_uri": "https://github.com/Gasmyr/auth-ads-repo",
+        "project_description": "Kudia OAuth",
+        "license": "MIT",
+        "last_updated": "1676632778717",
+        "project_type": "community"
     }
 }
