@@ -1,5 +1,6 @@
-Flow co.treq.2fa
-     Basepath "treq"
-Log "@info " done !
-o = "user"
-Finish __________
+Flow __________
+     Basepath ""
+RRF "__________" __________
+__________ = __________
+Log "@ " __________
+__________ = Trigger __________ __________
