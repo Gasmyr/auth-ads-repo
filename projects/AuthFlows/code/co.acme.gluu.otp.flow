@@ -1,2 +1,6 @@
 Flow co.acme.gluu.otp
      Basepath "otp"
+Log "@info " done!
+o = "user"
+o = Trigger otp.flth user
+Finish true
