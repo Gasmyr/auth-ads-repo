@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Agama-start-Flow-a0f0de83-7425-408f-95e6-b4278ecec3cf",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-a0f0de83-7425-408f-95e6-b4278ecec3cf",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 25.33331298828125,
+        "y": 82
+      },
+      "handles": [],
+      "agamaData": {
+        "id": "Agama-start-Flow-a0f0de83-7425-408f-95e6-b4278ecec3cf",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasNoRepeat": false,
+        "name": "",
+        "basepath": "sx",
+        "comment": "",
+        "flowfilename": "",
+        "assignedvariableName": "",
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "variableType": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "whenVariable": "",
+        "whenConditionInputField": "",
+        "whenValue": "",
+        "returnVariable": "",
+        "asssignmentExpression": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "sx flow",
+        "nodeColor": "",
+        "flowname": "co.sample.sx"
+      },
+      "inRepeatBlock": false,
+      "whenCondition": ""
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
