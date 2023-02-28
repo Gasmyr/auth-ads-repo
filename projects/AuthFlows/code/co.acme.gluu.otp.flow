@@ -1,6 +1,9 @@
-Flow co.acme.gluu.otp
-     Basepath "otp"
-Log "@info " done!
-o = "user"
-o = Trigger otp.flth user
-Finish true
+Flow __________
+     Basepath ""
+RRF "__________" __________
+Repeat __________ times max
+     Log "@ " __________
+     __________ =      RFAC __________
+     Finish __________
+__________ = Call __________#__________ __________
+__________ = Trigger __________ __________
