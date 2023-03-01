@@ -1,4 +1,9 @@
 Flow co.rey.mfa
-     Basepath "mfa"
-     Timeout __________ seconds
-     Inputs __________
+     Basepath "MFA"
+     Timeout 100 seconds
+     Inputs dert  trt  yrt
+h = RRF "dfg" hd
+Repeat 3 times max
+     RRF "__________" __________
+     Finish __________
+Log "@ " __________
