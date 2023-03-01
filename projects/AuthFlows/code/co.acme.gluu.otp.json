@@ -348,7 +348,7 @@
 				"type": "Agama-repeat-Node",
 				"parentId": "Agama-rrf-Node-fe04d6f1-91f4-481b-b200-e1d65e3d6bb7",
 				"whenCondition": "",
-				"inRepeatBlock": true,
+				"inRepeatBlock": false,
 				"handles": [
 					"Agama-repeat-Node-89d05bf0-5a9e-4557-8bc7-1b2d968f014c.InFlow",
 					"Agama-repeat-Node-89d05bf0-5a9e-4557-8bc7-1b2d968f014c.InRepeatBlock"
@@ -395,7 +395,7 @@
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 370,
@@ -522,7 +522,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -654,8 +654,8 @@
 		}
 	],
 	"viewport": {
-		"x": 29.96577048412138,
-		"y": 78.74676406599457,
-		"zoom": 0.8220701096753542
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
