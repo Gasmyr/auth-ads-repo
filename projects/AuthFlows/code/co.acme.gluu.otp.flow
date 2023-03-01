@@ -1,5 +1,7 @@
 Flow __________
      Basepath ""
+     Timeout __________ seconds
+     Inputs __________
 RRF "__________" __________
 Repeat __________ times max
      Log "@ " __________
